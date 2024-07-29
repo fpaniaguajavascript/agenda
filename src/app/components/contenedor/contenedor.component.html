@@ -1,7 +1,3 @@
 <div id="contenedor">
-    <app-tarea></app-tarea>
-    <app-tarea></app-tarea>
-    <app-tarea></app-tarea>
-    <app-tarea></app-tarea>
-    <app-tarea></app-tarea>
+    <app-tarea *ngFor="let task of gestorTareas.tareas" [tarea]=task></app-tarea>
 </div>

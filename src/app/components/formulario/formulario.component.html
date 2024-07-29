@@ -1,5 +1,6 @@
 <div>
-    <input type="text" placeholder="Tarea">
-    <input type="date">
-    <button>Crear</button>
+    <input [(ngModel)]="nombre" type="text" placeholder="Tarea">
+    <input [(ngModel)]="fecha" type="date">
+    <button (click)="crearTarea()">Crear</button>
+    <!--{{ gestorTareas.tareas | json }}-->
 </div>

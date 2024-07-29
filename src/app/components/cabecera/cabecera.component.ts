@@ -4,8 +4,13 @@ import { Component } from '@angular/core';
   selector: 'app-cabecera',
   standalone: true,
   imports: [],
-  templateUrl: './cabecera.component.html',
-  styleUrl: './cabecera.component.css'
+  template: `<h1>Task Manager Plus</h1>`,
+  styles: `
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color:blue;
+  }`
 })
 export class CabeceraComponent {
 
